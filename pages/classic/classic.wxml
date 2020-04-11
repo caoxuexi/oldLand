@@ -1,0 +1,18 @@
+<view class="root-container">
+    <view class="header" >
+        <c-episode class="episode" index="{{classic.data.index}}" />
+        <c-like class="like" bind:like="onLike" like="{{likeStatus}}" count="{{likeCount}}"/>
+    </view>
+    <c-movie hidden="{{classic.data.type!=100}}" img="{{classic.data.image}}" 
+        content="{{classic.data.content}}"/>
+    <c-music wx:if="{{classic.data.type==200}}" img="{{classic.data.image}}" 
+        content="{{classic.data.content}}"
+        src="{{classic.data.url}}"
+        title="{{classic.data.title}}"/>
+    <!-- <c-music hidden="{{classic.data.type!=200}}" img="{{classic.data.image}}" 
+        content="{{classic.data.content}}"
+        src="{{classic.data.url}}"/> -->
+    <c-essay hidden="{{classic.data.type!=300}}" img="{{classic.data.image}}" 
+        content="{{classic.data.content}}"/>
+    <c-navi bind:left="onNext" bind:right="onPrevious" title="{{classic.data.title}}" class="navi" first="{{first}}" latest="{{latest}}"/>
+</view>
