@@ -1,46 +1,54 @@
 /* components/classic/music/index.wxss */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .classic-img {
-    width: 422rpx;
-    height: 422rpx;
-    margin-top: 60rpx;
-    border-radius: 50%;
+  width: 422rpx;
+  height: 422rpx;
+  margin-top: 60rpx;
+  border-radius: 50%;
 }
 
 .player-img {
-    width: 120rpx;
-    height: 120rpx;
-    position: relative; 
-    bottom: 270rpx; 
- }
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+  bottom: 270rpx;
+}
 
-.tag{
-    width:44rpx;
-    height:128rpx;
-    position: relative;
-    bottom: 160rpx;
-    right:310rpx; 
+.tag {
+  width: 44rpx;
+  height: 128rpx;
+  position: relative;
+  bottom: 128rpx;
+  right: 310rpx;
+}
+
+.content {
+  position: relative;
+  bottom:80rpx;
+  display: block;
+  font-size: 36rpx;
+  max-width: 550rpx;
 }
 
 .rotation {
-    -webkit-transform: rotate(360deg);
-    animation: rotation 12s linear infinite;
-    -moz-animation: rotation 12s linear infinite;
-    -webkit-animation: rotation 12s linear infinite;
-    -o-animation: rotation 12s linear infinite;
+  -webkit-transform: rotate(360deg);
+  animation: rotation 12s linear infinite;
+  -moz-animation: rotation 12s linear infinite;
+  -webkit-animation: rotation 12s linear infinite;
+  -o-animation: rotation 12s linear infinite;
 }
-  
+
 @-webkit-keyframes rotation {
-    from {
-      -webkit-transform: rotate(0deg);
-    }
-  
-    to {
-      -webkit-transform: rotate(360deg);
-    }
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }

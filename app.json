@@ -3,7 +3,9 @@
     "pages/classic/classic",
     "pages/book/book",
     "pages/my/my",
-    "pages/book-detail/book-detail"
+    "pages/book-detail/book-detail",
+    "pages/about/about",
+    "pages/course/course"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,7 +13,6 @@
     "navigationBarTitleText": "旧岛",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
   "requiredBackgroundModes": [
     "audio"

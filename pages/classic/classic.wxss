@@ -19,6 +19,14 @@
     border-bottom: 1px solid #f5f5f5;
 }
 
+.header>.like-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:30rpx;
+  }
+
 .episode {
     margin-left: 20rpx;
     margin-top: 4rpx;
@@ -33,17 +41,9 @@
     bottom: 40rpx;
 }
 
-.like-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right:30rpx;
-  }
-  
-
-.share-btn {
-    margin-top: 28rpx;
+.share-btn{
+    /* size:'mini'; */
+    margin-top: 20rpx;
     margin-left: 10rpx;
 }
 

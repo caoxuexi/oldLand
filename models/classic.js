@@ -76,8 +76,15 @@ class ClassicModel extends HTTP{
             })
         }else{
             sCallback(classic)
+        }      
+    }
+
+    getMyFavor(success) {
+        const params = {
+            url: 'classic/favor',
+            success: success
         }
-        
+        this.request(params)
     }
 }
 

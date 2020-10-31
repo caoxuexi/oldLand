@@ -5,6 +5,7 @@
     "c-music":"/components/classic/music/index",
     "c-essay":"/components/classic/essay/index",
     "c-episode":"/components/episode/index",
-    "c-navi": "/components/navi/index"
+    "c-navi": "/components/navi/index",
+    "c-button" :"/components/image-button/index"
   }
 }
